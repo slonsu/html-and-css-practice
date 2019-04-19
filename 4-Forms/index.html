@@ -8,53 +8,40 @@
 </head>
 <body>
     <form action="/registration" style="margin:0 auto;width:250px;">
+        <h2>Sign in</h2>
+        <hr>
         <label>
-            name:
-            <input type="text" name="getname" required>
+            Full Name:<br>
+            <input type="text" name="getname">
         </label>
         <br>
         <label>
-            email:
-            <input type="email" name="getemail" required>
+            Email Address:<br>
+            <input type="email" name="getemail">
         </label>
         <br>
         <label>
-            password:
-            <input type="password" name="getpass" required>
+            Communication:<br>
+            <input type="checkbox" name="em">
+            Email<br>
+            <input type="checkbox" name="sms">
+            SMS<br>
+            <input type="checkbox" name="phone">
+            Phone
         </label>
         <br>
         <label>
-            number
-            <input type="number" name="getnum" required>
+            Select user group:<br>
+            <input type="radio" name="mc">
+            Sales Person<br>
         </label>
-        <br>
-        <label>
-            date
-            <input type="date" name="getdate" required>
-        </label>
-        <br>
-        <label>
-            time:
-            <input type="time" name="gettime" required>
-        </label>
-        <br>
-        <label>
-            color:
-            <input type="color" name="getcolor" required>
-        </label>
-        <br>
-        <label>
-            range:
-            <input type="range" name="getrange">
-        </label>
-        <br>
-        <label>
-            desc:
-            <textarea name="getdesc" cols="30" rows="10"></textarea>
+        <laber>
+            <input type="radio" name="mc">
+            Customer
         </label>
         <hr>
-        <input type="submit" value="submit">
-        <input type="reset" value="clear">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
     </form>
 </body>
 </html>
