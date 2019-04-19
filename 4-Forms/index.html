@@ -7,53 +7,54 @@
     <title>4.Forms</title>
 </head>
 <body>
-    <form action="/registration">
+    <form action="/registration" style="margin:0 auto;width:250px;">
         <label>
-            Phone:
-            <input type="number" name="getphone" required>
+            name:
+            <input type="text" name="getname" required>
         </label>
         <br>
         <label>
-            E-mail:
-            <input type="email" name="getmail" required>
+            email:
+            <input type="email" name="getemail" required>
         </label>
         <br>
         <label>
-            Password:
+            password:
             <input type="password" name="getpass" required>
         </label>
         <br>
         <label>
-            Confirm Password:
-            <input type="password" name="confirmpass" required>
+            number
+            <input type="number" name="getnum" required>
         </label>
         <br>
         <label>
-            Nickname:
-            <input type="text" name="getuser" required>
+            date
+            <input type="date" name="getdate" required>
         </label>
         <br>
         <label>
-            Habitatual Residence:
-            <select name="getres">
-                <option>China</option>
-                <option>Antarctica</option>
-                <option>Narnia</option>
-                <option>FREE NATION OF KAZAKHSTAN</option>
-            </select>
+            time:
+            <input type="time" name="gettime" required>
         </label>
         <br>
         <label>
-            Website:
-            <input type="url" name="getwebsite" placeholder="website" required>
+            color:
+            <input type="color" name="getcolor" required>
         </label>
         <br>
         <label>
-            <input type="checkbox" name="getagree" required>
-            I have read the <a href="https://google.com">agreement</a>
+            range:
+            <input type="range" name="getrange">
         </label>
         <br>
-        <input type="submit" value="Register">
+        <label>
+            desc:
+            <textarea name="getdesc" cols="30" rows="10"></textarea>
+        </label>
+        <hr>
+        <input type="submit" value="submit">
+        <input type="reset" value="clear">
     </form>
 </body>
 </html>
