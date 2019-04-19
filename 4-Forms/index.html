@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>4.Forms</title>
+</head>
+<body>
+    <form action="/registration">
+        <label>
+            Phone:
+            <input type="number" name="getphone" required>
+        </label>
+        <br>
+        <label>
+            E-mail:
+            <input type="email" name="getmail" required>
+        </label>
+        <br>
+        <label>
+            Password:
+            <input type="password" name="getpass" required>
+        </label>
+        <br>
+        <label>
+            Confirm Password:
+            <input type="password" name="confirmpass" required>
+        </label>
+        <br>
+        <label>
+            Nickname:
+            <input type="text" name="getuser" required>
+        </label>
+        <br>
+        <label>
+            Habitatual Residence:
+            <select name="getres">
+                <option>China</option>
+                <option>Antarctica</option>
+                <option>Narnia</option>
+                <option>FREE NATION OF KAZAKHSTAN</option>
+            </select>
+        </label>
+        <br>
+        <label>
+            Website:
+            <input type="url" name="getwebsite" placeholder="website" required>
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="getagree" required>
+            I have read the <a href="https://google.com">agreement</a>
+        </label>
+        <br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
