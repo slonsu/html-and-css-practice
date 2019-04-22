@@ -1,0 +1,21 @@
+body {
+    background-image: url("background.jpg");
+  }
+
+section {
+    color: lightblue;
+}
+
+header {
+    color: lightblue;
+}
+
+.outline:hover{
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: invert;
+  }
+
+article {
+    padding: 20px;
+}
