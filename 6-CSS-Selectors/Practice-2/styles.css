@@ -1,0 +1,37 @@
+* {
+    font-family: 'Courier New', Courier, monospace
+}
+
+body {
+    background-color: pink;
+    text-align: center
+}
+
+header {
+    color: lightgreen;
+    text-align: left
+}
+
+section {
+    color: yellow;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: black;
+    font-size: 100px
+}
+
+img {
+    border: 20px solid #ddd;
+    border-radius: 4px;
+    border-color: red;
+    border-radius: 8px;
+}
+
+img:hover {
+    transform: scale(3)
+}
