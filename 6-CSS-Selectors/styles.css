@@ -1,7 +1,5 @@
-a {
-    color: black;
-  }
-  
-  a:hover {
-    color: green;
+.title {
+    font-size: 24px;
+    color: blue;
+    text-align: center;
   }
