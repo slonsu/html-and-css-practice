@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    width: 275px;
+    margin: 10px;
+    float: left;
+}
+
+section {
+    border: 1px lightgray solid;
+}
+
+p {
+    margin: 5px;
+    padding: 5px;
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+    color: gray;
+}
+
+.avatar {
+    border-radius: 50%
+}
+
+.box {
+    display: flex;
+    align-items:center;
+    border: transparent;
+ }
+
+ .lastitem {
+    margin-left: 80px;
+ }
+
+ img {
+    margin-left: 5px;
+    margin-right: 5px;
+ }
+
+ .importantinfo {
+    font-size: 20px;
+ }
+
+ .dateinfo {
+    transform: scale(0.9);
+    color: gray;
+ }
