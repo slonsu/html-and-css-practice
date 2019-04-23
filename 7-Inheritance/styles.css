@@ -29,3 +29,17 @@ input {
     border-color: lightgray;
     color: red;
 }
+
+.small {
+    padding: 8px 15px;
+    font-size: 15px;
+    box-shadow: 0px 1px 1px lightgray !important;
+    border-radius: 5px;
+}
+
+.large {
+    padding: 12px 25px;
+    font-size: 25px;
+    box-shadow: 0px 3px 3px lightgray !important;
+    border-radius: 7px;
+}
