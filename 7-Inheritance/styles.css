@@ -1,0 +1,31 @@
+input {
+    border: 2px solid;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 2px lightgray !important;
+    font-size: 20px;
+}
+
+.primary {
+    background-color: DodgerBlue;
+    border-color: DodgerBlue;
+    color: white;
+}
+
+.default {
+    background-color: transparent;
+    border-color: lightgray;
+}
+
+.dashed {
+    background-color: transparent;
+    border-color: lightgray;
+    border-style: dashed;
+}
+
+.danger {
+    background-color: gainsboro;
+    border-color: lightgray;
+    color: red;
+}
