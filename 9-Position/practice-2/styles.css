@@ -1,0 +1,46 @@
+p {
+    font-size: 50px;
+    background-color: gray;
+}
+
+section {
+    font-size: 20px;
+    position: fixed;
+    width: 600px;
+    top: 10%;
+    left: 30%;
+    background: white;
+    border-radius: 10px;
+}
+
+div {
+    padding: 25px;
+    border-bottom: 1px lightgray solid;
+}
+
+div:last-of-type {
+    border-bottom: none;
+}
+
+a {
+    color: lightslategray;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    text-decoration: none;
+}
+
+input {
+    float: right;
+    background-color: white;
+    border: 1px lightslategray solid;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.ok {
+    float: right;
+    color: white;
+    background-color: royalblue;
+}
